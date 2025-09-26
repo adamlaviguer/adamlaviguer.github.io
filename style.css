@@ -1,23 +1,33 @@
-/* Base styles */
+html {
+    background-color: #e0e0e0;
+    max-height: 100vh;
+}
+
 body {
-  background-color: #e0e0e0;
-  color: #000000;
-  font-family: 'Courier New', Courier, monospace;
-  max-width: 800px;
-  margin: auto;
-  text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 800px;
+    height: 100vh;
+    /* border: 5px solid #000000; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+    display: flex;
+    padding: 25px;
 }
 
 main {
-  
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
 }
 
 footer {
-  
+    display: flex;
+    margin-top: auto;
+    padding: 25px;
 }
