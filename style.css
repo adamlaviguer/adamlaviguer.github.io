@@ -1,13 +1,8 @@
 /* Base styles */
 body {
-  margin: 0;
-  padding: 0;
   background-color: #0f0f0f;
   color: #e0e0e0;
   font-family: 'Courier New', Courier, monospace;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
+  max-width: 1000px;
+  margin: auto;
 }
