@@ -7,3 +7,18 @@ body {
   margin: auto;
   text-align: center;
 }
+
+nav {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  
+}
+
+footer {
+  
+}
