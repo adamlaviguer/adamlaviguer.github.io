@@ -32,6 +32,10 @@ footer {
     padding: 25px;
 }
 
+a {
+    color: #000000;
+}
+
 a:link {
     text-decoration: none;
 }
